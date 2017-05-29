@@ -274,7 +274,325 @@ package classes
 		public static const Vapula:StatusAffectType = mk("Vapula");
 		public static const WhipReady:StatusAffectType = mk("Whip Ready");
 		
-		//metamorph
+		/* TRUEASDFMAN
+			Hairtype Unlocks for Metamorph
+		*/
+		public static const UnlockedHumanHair:StatusAffectType = mk("Unlocked Human Hair");
+		public static const UnlockedFeatherHair:StatusAffectType = mk("Unlocked Feather Hair");
+		public static const UnlockedGhostHair:StatusAffectType = mk("Unlocked Ghost Hair");
+		public static const UnlockedGooHair:StatusAffectType = mk("Unlocked Goo Hair");
+		public static const UnlockedAnemoneHair:StatusAffectType = mk("Unlocked Anenome Hair");
+		public static const UnlockedQuillHair:StatusAffectType = mk("Unlocked Quill Hair");
+		public static const UnlockedGorgonHair:StatusAffectType = mk("Unlocked Gorgon Hair");
+		public static const UnlockedLeafHair:StatusAffectType = mk("Unlocked Leaf Hair");
+		public static const UnlockedFluffyHair:StatusAffectType = mk("Unlocked Fluffy Hair");
+		
+		/* TRUEASDFMAN
+			Skintype Unlocks for Metamorph
+		*/		
+		public static const UnlockedHumanSkin:StatusAffectType = mk("Unlocked Human Skin");	
+		public static const UnlockedFur:StatusAffectType = mk("Unlocked Fur");
+		public static const UnlockedScales:StatusAffectType = mk("Unlocked Scales");
+		public static const UnlockedGoo:StatusAffectType = mk("Unlocked Goo");
+		public static const UnlockedChitin:StatusAffectType = mk("Unlocked Chitin");
+		public static const UnlockedBark:StatusAffectType = mk("Unlocked Bark");
+		public static const UnlockedStone:StatusAffectType = mk("Unlocked Stone");
+		public static const UnlockedTattooed:StatusAffectType = mk("Unlocked Tatooed");
+		public static const UnlockedAquaScales:StatusAffectType = mk("Unlocked AquaScales");
+		public static const UnlockedPartialFur:StatusAffectType = mk("Unlocked Partial Fur");
+		public static const UnlockedPartialScales:StatusAffectType = mk("Unlocked Partial Scales");
+		public static const UnlockedPartialChitin:StatusAffectType = mk("Unlocked Partial Chitin");
+		public static const UnlockedPartialBark:StatusAffectType = mk("Unlocked Partial Bark");
+		
+		/* TRUEASDFMAN
+			Facetype Unlocks for Metamorph
+		*/
+		public static const UnlockedHumanFace:StatusAffectType = mk("Unlocked Human Face");
+		public static const UnlockedHorseFace:StatusAffectType = mk("Unlocked Horse Face");
+		public static const UnlockedDogFace:StatusAffectType = mk("Unlocked Dog Face");
+		public static const UnlockedCowMinoFace:StatusAffectType = mk("Unlocked Cow-Mino Face");
+		public static const UnlockedSharkFace:StatusAffectType = mk("Unlocked Shark Face");
+		public static const UnlockedSnakeFace:StatusAffectType = mk("Unlocked Snake Face");
+		public static const UnlockedCatFace:StatusAffectType = mk("Unlocked Cat Face");
+		public static const UnlockedLizardFace:StatusAffectType = mk("Unlocked Lizard Face");
+		public static const UnlockedBunnyFace:StatusAffectType = mk("Unlocked Bunny Face");
+		public static const UnlockedKangarooFace:StatusAffectType = mk("Unlocked Kangaroo Face");
+		public static const UnlockedSpiderFace:StatusAffectType = mk("Unlocked Spider Face");
+		public static const UnlockedFoxFace:StatusAffectType = mk("Unlocked Fox Face");
+		public static const UnlockedDragonFace:StatusAffectType = mk("Unlocked Dragon Face");
+		public static const UnlockedRacconHalfFace:StatusAffectType = mk("Unlocked Half-Raccoon Face");
+		public static const UnlockedRaccoonFullFace:StatusAffectType = mk("Unlocked Full-Raccoon Face");
+		public static const UnlockedMouseHalfFace:StatusAffectType = mk("Unlocked Half-Mouse Face");
+		public static const UnlockedMouseFullFace:StatusAffectType = mk("Unlocked Full-Mouse Face");
+		public static const UnlockedFerretHalfFace:StatusAffectType = mk("Unlocked Half-Ferret Face");
+		public static const UnlockedFerretFullFace:StatusAffectType = mk("Unlocked Full-Ferret Face");
+		public static const UnlockedPigFace:StatusAffectType = mk("Unlocked Pig Face");
+		public static const UnlockedBoarFace:StatusAffectType = mk("Unlocked Boar Face");
+		public static const UnlockedRhinoFace:StatusAffectType = mk("Unlocked Rhino Face");
+		public static const UnlockedEchidnaFace:StatusAffectType = mk("Unlocked Echidna Face");
+		public static const UnlockedDeerFace:StatusAffectType = mk("Unlocked Deer Face");
+		public static const UnlockedWolfFace:StatusAffectType = mk("Unlocked Wolf Face");
+		public static const UnlockedManticoreFace:StatusAffectType = mk("Unlocked Manticore Face");
+		public static const UnlockedSalamanderFace:StatusAffectType = mk("Unlocked Salamander Face");
+		public static const UnlockedYetiFace:StatusAffectType = mk("Unlocked Yeti Face");
+	
+		/* TRUEASDFMAN
+			Tonguetype Unlocks for Metamorph
+		*/
+		public static const UnlockedHumanTongue:StatusAffectType = mk("Unlocked Human Tongue");
+		public static const UnlockedSnakeTongue:StatusAffectType = mk("Unlocked Snake Tongue");
+		public static const UnlockedDemonTongue:StatusAffectType = mk("Unlocked Demon Tongue");
+		public static const UnlockedDragonTongue:StatusAffectType = mk("Unlocked Dragon Tongue");
+		public static const UnlockedEchidnaTongue:StatusAffectType = mk("Unlocked Echidna Tongue");
+		public static const UnlockedCatTongue:StatusAffectType = mk("Unlocked Cat Tongue");
+		
+		/* TRUEASDFMAN
+			Eyetype Unlocks for Metamorph
+		*/
+		public static const UnlockedHumanEyes:StatusAffectType = mk("Unlocked Human Eyes");
+		public static const UnlockedSpiderEyes:StatusAffectType = mk("Unlocked Spider Eyes");
+		public static const UnlockedSandTrapEyes:StatusAffectType = mk("Unlocked Sandtrap Eyes");
+		public static const UnlockedCatEyes:StatusAffectType = mk("Unlocked Cat Eyes");
+		public static const UnlockedGorgonEyes:StatusAffectType = mk("Unlocked Gorgon Eyes");
+		public static const UnlockedFenrirEyes:StatusAffectType = mk("Unlocked Fenrir Eyes");
+		public static const UnlockedManticoreEyes :StatusAffectType = mk("Unlocked ManticoreEyes");
+		public static const UnlockedFoxEyes:StatusAffectType = mk("Unlocked FoxEyes");
+		public static const UnlockedLizardEyes:StatusAffectType = mk("Unlocked Lizard Eyes");
+		
+		/* TRUEASDFMAN
+			Eartype Unlocks for Metamorph
+		*/
+		public static const UnlockedNoEars:StatusAffectType = mk("Unlocked No Ears");
+		public static const UnlockedHumanEars:StatusAffectType = mk("Unlocked Human Ears");
+		public static const UnlockedHorseEars:StatusAffectType = mk("Unlocked Horse Ears");
+		public static const UnlockedDogEars:StatusAffectType = mk("Unlocked Dog Ears");
+		public static const UnlockedCowMinoEars:StatusAffectType = mk("Unlocked Cow-Mino Ears");
+		public static const UnlockedElfEars:StatusAffectType = mk("Unlocked Elf Ears");
+		public static const UnlockedCatEars:StatusAffectType = mk("Unlocked Cat Ears");
+		public static const UnlockedLizardEars:StatusAffectType = mk("Unlocked Lizard Ears");
+		public static const UnlockedBunnyEars:StatusAffectType = mk("Unlocked Bunny Ears");
+		public static const UnlockedKangarooEars:StatusAffectType = mk("Unlocked Kangaroo Ears");
+		public static const UnlockedFoxEars:StatusAffectType = mk("Unlocked Fox Ears");
+		public static const UnlockedDragonEars:StatusAffectType = mk("Unlocked Dragon Ears");
+		public static const UnlockedRaccoonEars:StatusAffectType = mk("Unlocked Raccoon Ears");
+		public static const UnlockedMouseEars:StatusAffectType = mk("Unlocked Mouse Ears");
+		public static const UnlockedFerretEars:StatusAffectType = mk("Unlocked Ferret Ears");
+		public static const UnlockedPigEars:StatusAffectType = mk("Unlocked Pig Ears");
+		public static const UnlockedRhinoEars:StatusAffectType = mk("Unlocked Rhino Ears");
+		public static const UnlockedEchidnaEars:StatusAffectType = mk("Unlocked Echidna Ears");
+		public static const UnlockedDeerEars:StatusAffectType = mk("Unlocked Deer Ears");
+		public static const UnlockedWolfEars:StatusAffectType = mk("Unlocked Wolf Ears");
+		public static const UnlockedLionEars:StatusAffectType = mk("Unlocked Lion Ears");
+		public static const UnlockedYetiEars:StatusAffectType = mk("Unlocked Yeti Ears");
+		
+		/* TRUEASDFMAN
+			Horntype Unlock for Metamorph
+		*/
+		public static const UnlockedNoHorns:StatusAffectType = mk("Unlocked No Horns");
+		public static const UnlockedDemonHorns:StatusAffectType = mk("Unlocked Demon Horns");
+		public static const UnlockedCowMinoHorns:StatusAffectType = mk("Unlocked Cow-Mino Horns");
+		public static const UnlockedDragonHornsX2:StatusAffectType = mk("Unlocked Dragon Horns");
+		public static const UnlockedDragonHornsX4:StatusAffectType = mk("Unlocked Dragon Horns 2");
+		public static const UnlockedAntlers:StatusAffectType = mk("Unlocked Antlers");
+		public static const UnlockedGoatHorns:StatusAffectType = mk("Unlocked Goat Horns");
+		public static const UnlockedUnicornHorns:StatusAffectType = mk("Unlocked Unicorn Horns");
+		public static const UnlockedRhinoHorns:StatusAffectType = mk("Unlocked Rhino Horns");
+		public static const UnlockedOakHorns:StatusAffectType = mk("Unlocked Oak Horns");
+		public static const UnlockedGargoyleHorns:StatusAffectType = mk("Unlocked Gargoyle Horns");
+		public static const UnlockedOrchidHorns:StatusAffectType = mk("Unlocked Orchid Horns");
+				
+		/* TRUEASDFMAN
+			Antennae Unlock for Metamorph
+		*/
+		public static const UnlockedNoAntennae:StatusAffectType = mk("Unlocked No Antennae");
+		public static const UnlockedMantisAntennae:StatusAffectType = mk("Unlocked Mantis Antennae");
+		public static const UnlockedBeeAntennae:StatusAffectType = mk("Unlocked Bee Antennae");
+		
+		/* TRUEASDFMAN
+			Gilltype Unlock for Metamorph
+		*/
+		public static const UnlockedNoGills:StatusAffectType = mk("Unlocked No Gills");
+		public static const UnlockedAnemoneGills:StatusAffectType = mk("Unlocked Anemone Gills");
+		public static const UnlockedFishGills:StatusAffectType = mk("Unlocked Fish Gills");
+		public static const UnlockedTentacleLegGills:StatusAffectType = mk("Unlocked TentacleLeg Gills");
+		
+		/* TRUEASDFMAN
+			Armtype Unlock for Metamorph
+		*/
+		public static const UnlockedHumanArms:StatusAffectType = mk("Unlocked Human Arms");
+		public static const UnlockedHarpyArms:StatusAffectType = mk("Unlocked Harpy Arms");
+		public static const UnlockedSpiderArms:StatusAffectType = mk("Unlocked Spider Arms");
+		public static const UnlockedMantisArms:StatusAffectType = mk("Unlocked Mantis Arms");
+		public static const UnlockedBeeArms:StatusAffectType = mk("Unlocked Bee Arms");
+		public static const UnlockedSalamanderArms:StatusAffectType = mk("Unlocked Slamander Arms");
+		public static const UnlockedPhoenixArms:StatusAffectType = mk("Unlocked Phoenix Arms");
+		public static const UnlockedPlantArms:StatusAffectType = mk("Unlocked plant Arms");
+		public static const UnlockedSharkArms:StatusAffectType = mk("Unlocked Shark Arms");
+		public static const UnlockedGargoyleArms:StatusAffectType = mk("Unlocked Gargoyle Arms");
+		public static const UnlockedWolfArms:StatusAffectType = mk("Unlocked Wolf Arms");
+		public static const UnlockedLionArms:StatusAffectType = mk("Unlocked Lion Arms");
+		public static const UnlockedKitsuneArms:StatusAffectType = mk("Unlocked Kitsune Arms");
+		public static const UnlockedFoxArms:StatusAffectType = mk("Unlocked Fox Arms");
+		public static const UnlockedLizardArms:StatusAffectType = mk("Unlocked Lizard Arms");
+		public static const UnlockedDragonArms:StatusAffectType = mk("Unlocked Dragon Arms");
+		public static const UnlockedYetiArms:StatusAffectType = mk("Unlocked Yeti Arms");
+		
+		/* TRUEASDFMAN
+			Tailtype Unlock for Metamorph
+		*/
+		public static const UnlockedNoTail:StatusAffectType = mk("Unlocked No Tail");
+		public static const UnlockedHorseTail:StatusAffectType = mk("Unlocked Horse Tail");
+		public static const UnlockedDogTail:StatusAffectType = mk("Unlocked Dog Tail");
+		public static const UnlockedDemonTail:StatusAffectType = mk("Unlocked Demon Tail");
+		public static const UnlockedCowMinoTail:StatusAffectType = mk("Unlocked Cow-Mino Tail");
+		public static const UnlockedSpiderAbdomenTail:StatusAffectType = mk("Unlocked SpiderAbdomen Tail");
+		public static const UnlockedBeeAbdomenTail:StatusAffectType = mk("Unlocked BeeAbdomen Tail");
+		public static const UnlockedSharkTail:StatusAffectType = mk("Unlocked Shark Tail");
+		public static const UnlockedCatTail:StatusAffectType = mk("Unlocked Cat Tail");
+		public static const UnlockedLizardTail:StatusAffectType = mk("Unlocked Lizard Tail");
+		public static const UnlockedRabbitTail:StatusAffectType = mk("Unlocked Rabbit Tail");
+		public static const UnlockedHarpyTail:StatusAffectType = mk("Unlocked Harpy Tail");
+		public static const UnlockedKangarooTail:StatusAffectType = mk("Unlocked Kangaroo Tail");
+		public static const UnlockedFoxTail:StatusAffectType = mk("Unlocked Fox Tail 1");
+		public static const UnlockedKitsuneTail1:StatusAffectType = mk("Unlocked Kitsune Tail 1");
+		public static const UnlockedKitsuneTail2:StatusAffectType = mk("Unlocked Kitsune Tail 2");
+		public static const UnlockedKitsuneTail3:StatusAffectType = mk("Unlocked Kitsune Tail 3");
+		public static const UnlockedKitsuneTail4:StatusAffectType = mk("Unlocked Kitsune Tail 4");
+		public static const UnlockedKitsuneTail5:StatusAffectType = mk("Unlocked Kitsune Tail 5");
+		public static const UnlockedKitsuneTail6:StatusAffectType = mk("Unlocked Kitsune Tail 6");
+		public static const UnlockedKitsuneTail7:StatusAffectType = mk("Unlocked Kitsune Tail 7");
+		public static const UnlockedKitsuneTail8:StatusAffectType = mk("Unlocked Kitsune Tail 8");
+		public static const UnlockedKitsuneTail9:StatusAffectType = mk("Unlocked Kitsune Tail 9");
+		public static const UnlockedDragonTail:StatusAffectType = mk("Unlocked Dragon Tail");
+		public static const UnlockedRaccoonTail:StatusAffectType = mk("Unlocked Raccoon Tail");
+		public static const UnlockedMouseTail:StatusAffectType = mk("Unlocked Mouse Tail");
+		public static const UnlockedFerretTail:StatusAffectType = mk("Unlocked Ferret Tail");
+		public static const UnlockedBehemothTail:StatusAffectType = mk("Unlocked Behemoth Tail");
+		public static const UnlockedPigTail:StatusAffectType = mk("Unlocked Pig Tail");
+		public static const UnlockedScorpionTail:StatusAffectType = mk("Unlocked Scorpion Tail");
+		public static const UnlockedGoatTail:StatusAffectType = mk("Unlocked Goat Tail");
+		public static const UnlockedRhinoTail:StatusAffectType = mk("Unlocked Rhino Tail");
+		public static const UnlockedEchidnaTail:StatusAffectType = mk("Unlocked Echidna Tail");
+		public static const UnlockedDeerTail:StatusAffectType = mk("Unlocked Dee Tail");
+		public static const UnlockedSalamanderTail:StatusAffectType = mk("Unlocked Salamander Tail");
+		public static const UnlockedKitshooTail:StatusAffectType = mk("Unlocked Kitshoo Tail");
+		public static const UnlockedMantisAbdomenTail:StatusAffectType = mk("Unlocked MantisAbdomen Tail");
+		public static const UnlockedManticoreTail:StatusAffectType = mk("Unlocked Manticore Tail");
+		public static const UnlockedWolfTail:StatusAffectType = mk("Unlocked Wolf Tail");
+		public static const UnlockedGargoyleTail:StatusAffectType = mk("Unlocked Gargoyle Tail");
+		
+		/* TRUEASDFMAN
+			Wingtype Unlock for Metamorph
+		*/
+		public static const UnlockedNoWings:StatusAffectType = mk("Unlocked No Wings");
+		public static const UnlockedBeeSmallWings:StatusAffectType = mk("Unlocked Small Bee Wings");
+		public static const UnlockedBeeLargeWings:StatusAffectType = mk("Unlocked Large Bee Wings");
+		public static const UnlockedHarpyWings:StatusAffectType = mk("Unlocked Harpy Wings");
+		public static const UnlockedImpWings:StatusAffectType = mk("Unlocked Imp Wings");
+		public static const UnlockedDemonSmallWings:StatusAffectType = mk("Unlocked Small Demon Wings");
+		public static const UnlockedDemonLargeWings:StatusAffectType = mk("Unlocked Large Demon Wings");
+		public static const UnlockedDemonLargeWingsX2:StatusAffectType = mk("Unlocked Large Demon Wings 2");
+		public static const UnlockedFeatheredLargeWings:StatusAffectType = mk("Unlocked Large Feathered Wings");
+		public static const UnlockedDragonSmallWings:StatusAffectType = mk("Unlocked Small Dragon Wings");
+		public static const UnlockedDragonLargeWings:StatusAffectType = mk("Unlocked Large Dragon Wings");
+		public static const UnlockedDragonHugeWings:StatusAffectType = mk("Unlocked Huge Dragon Wings");
+		public static const UnlockedDragonflyWings:StatusAffectType = mk("Unlocked Dragonfly Wings");
+//		public static const UnlockedDragonflySmallWings:StatusAffectType = mk("Unlocked Small Dragonfly Wings");
+//		public static const UnlockedDragonflyLargeWings:StatusAffectType = mk("Unlocked Large Dragonfly Wings");
+		public static const UnlockedPhoenixWings:StatusAffectType = mk("Unlocked Phoenix Wings");
+		public static const UnlockedAlicornWings:StatusAffectType = mk("Unlocked Alicorn Wings");
+		public static const UnlockedMantisSmallWings:StatusAffectType = mk("Unlocked Small Mantis Wings");
+		public static const UnlockedMantisLargeWings:StatusAffectType = mk("Unlocked Large Mantis Wings");
+		public static const UnlockedMantisHugeWings:StatusAffectType = mk("Unlocked Huge Mantis Wings");
+		public static const UnlockedGargoyleLargeWings:StatusAffectType = mk("Unlocked Large Gargoyle Wings");
+		public static const UnlockedPlantWings:StatusAffectType = mk("Unlocked Plant Wings");
+		public static const UnlockedManticoreSmallWings:StatusAffectType = mk("Unlocked Small Manticore Wings");
+		public static const UnlockedManticoreLargeWings:StatusAffectType = mk("Unlocked Large Manticore Wings");
+		
+		/* TRUEASDFMAN
+			LowerBodytype Unlock for Metamorph
+		*/
+		public static const UnlockedHumanLowerBody:StatusAffectType = mk("Unlocked Human LowerBody");
+		public static const UnlockedHoofedLowerBody:StatusAffectType = mk("Unlocked Hoofed LowerBody");
+		public static const UnlockedDogLowerBody:StatusAffectType = mk("Unlocked Dog LowerBody");
+		public static const UnlockedNagaLowerBody:StatusAffectType = mk("Unlocked Naga LowerBody");
+//		public static const UnlockedCentaurLowerBody:StatusAffectType = mk("Unlocked "); //TODO: NOT USED
+		public static const UnlockedDemonHighHeelsLowerBody:StatusAffectType = mk("Unlocked Demon HighHeels LowerBody");
+		public static const UnlockedDemonClawsLowerBody:StatusAffectType = mk("Unlocked Demon Claws Lower Body");
+		public static const UnlockedBeeLowerBody:StatusAffectType = mk("Unlocked Bee LowerBody");
+		public static const UnlockedGooLowerBody:StatusAffectType = mk("Unlocked Goo LowerBody");
+		public static const UnlockedCatLowerBody:StatusAffectType = mk("Unlocked Cat LowerBody");
+		public static const UnlockedLizardLowerBody:StatusAffectType = mk("Unlocked Lizard LowerBody");
+		public static const UnlockedPonyLowerBody:StatusAffectType = mk("Unlocked Pony LowerBody");
+		public static const UnlockedBunnyLowerBody:StatusAffectType = mk("Unlocked Bunny LowerBody");
+		public static const UnlockedHarpyLowerBody:StatusAffectType = mk("Unlocked Harpy LowerBody");
+		public static const UnlockedKangarooLowerBody:StatusAffectType = mk("Unlocked Kangaroo LowerBody");
+		public static const UnlockedSpiderLowerBody:StatusAffectType = mk("Unlocked Spider LowerBody");
+		public static const UnlockedDriderLowerBody:StatusAffectType = mk("Unlocked Drider LowerBody");
+		public static const UnlockedFoxLowerBody:StatusAffectType = mk("Unlocked Fox LowerBody");
+		public static const UnlockedDragonLowerBody:StatusAffectType = mk("Unlocked Dragon LowerBody");
+		public static const UnlockedRaccoonLowerBody:StatusAffectType = mk("Unlocked Raccoon LowerBody");
+		public static const UnlockedFerretLowerBody:StatusAffectType = mk("Unlocked Ferret LowerBody");
+		public static const UnlockedClovenHoofedLowerBody:StatusAffectType = mk("Unlocked Clovenhoofed LowerBody");
+		public static const UnlockedEchidnaLowerBody:StatusAffectType = mk("Unlocked Echidna LowerBody");
+//		public static const UnlockedDeerLowerBody:StatusAffectType = mk("Unlocked "); //TODO: NOT USED
+		public static const UnlockedSalamanderLowerBody:StatusAffectType = mk("Unlocked Salamander LowerBody");
+		public static const UnlockedScyllaLowerBody:StatusAffectType = mk("Unlocked Scylla LowerBody");
+		public static const UnlockedMantisLowerBody:StatusAffectType = mk("Unlocked Mantis LowerBody");
+		public static const UnlockedSharkLowerBody:StatusAffectType = mk("Unlocked Shark LowerBody");
+		public static const UnlockedGargoyleLowerBody:StatusAffectType = mk("Unlocked Gargoyle LowerBody");
+		public static const UnlockedPlantHighHeelsLowerBody:StatusAffectType = mk("Unlocked Plant HighHeels LowerBody");
+		public static const UnlockedPlantRootClawsLowerBody:StatusAffectType = mk("Unlocked Plant RootClaws LowerBody");
+		public static const UnlockedPlantFlowerLowerBody:StatusAffectType = mk("Unlocked Plant Flower LowerBody");
+		public static const UnlockedWolfLowerBody:StatusAffectType = mk("Unlocked Wolf LowerBody");
+		public static const UnlockedLionLowerBody:StatusAffectType = mk("Unlocked Lion LowerBody");
+		public static const UnlockedYetiLowerBody:StatusAffectType = mk("Unlocked Yeti LowerBody");
+		
+		/* TRUEASDFMAN
+			RearBodytype Unlock for Metamorph
+		*/
+		public static const UnlockedNoRearBody:StatusAffectType = mk("Unlocked No RearBody");
+		public static const UnlockedDragonManeRearBody:StatusAffectType = mk("Unlocked DragonMane RearBody");		//NYI
+		public static const UnlockedDragonSpikesRearBody:StatusAffectType = mk("Unlocked DragonSpikes RearBody");	//NYI
+		public static const UnlockedFenrirIceSpikesRearBody:StatusAffectType = mk("Unlocked Fenrir IceSpikes RearBody");
+		public static const UnlockedLionManeRearBody:StatusAffectType = mk("Unlocked LionMane RearBody");
+		public static const UnlockedBehemothRearBody:StatusAffectType = mk("Unlocked Behemoth RearBody");	//NYI
+		public static const UnlockedSharkFinRearBody:StatusAffectType = mk("Unlocked SharkFin RearBody");	
+		
+		/* TRUEASDFMAN
+			Vaginatype Unlock for Metamorph
+		*/
+		public static const UnlockedHumanVagina:StatusAffectType = mk("Unlocked Human Vagina");
+		public static const UnlockedHorseVagina:StatusAffectType = mk("Unlocked Horse Vagina");
+		public static const UnlockedSandTrapVagina:StatusAffectType = mk("Unlocked SandTrap Vagina");
+		
+		/* TRUEASDFMAN
+			Cocktype Unlock for Metamorph
+		*/
+		public static const UnlockedHumanCock:StatusAffectType = mk("Unlocked Human Cock");
+		public static const UnlockedHorseCock:StatusAffectType = mk("Unlocked Horse Cock");
+		public static const UnlockedDogCock:StatusAffectType = mk("Unlocked Dog Cock");
+		public static const UnlockedDemonCock:StatusAffectType = mk("Unlocked Demon Cock");
+		public static const UnlockedTentacleCock:StatusAffectType = mk("Unlocked Tentacle Cock");
+		public static const UnlockedCatCock:StatusAffectType = mk("Unlocked Cat Cock");
+		public static const UnlockedLizardCock:StatusAffectType = mk("Unlocked Lizard Cock");
+		public static const UnlockedAnemoneCock:StatusAffectType = mk("Unlocked Anemone Cock");
+		public static const UnlockedKangarooCock:StatusAffectType = mk("Unlocked Kangaroo Cock");
+		public static const UnlockedDragonCock:StatusAffectType = mk("Unlocked Dragon Cock");
+		public static const UnlockedDisplacerCock:StatusAffectType = mk("Unlocked Displacer Cock");
+		public static const UnlockedFoxCock:StatusAffectType = mk("Unlocked Fox Cock");
+		public static const UnlockedBeeCock:StatusAffectType = mk("Unlocked Bee Cock");
+		public static const UnlockedPigCock:StatusAffectType = mk("Unlocked Pig Cock");
+		public static const UnlockedAvianCock:StatusAffectType = mk("Unlocked Avian Cock");
+		public static const UnlockedRhinoCock:StatusAffectType = mk("Unlocked Rhino Cock");
+		public static const UnlockedEchidnaCock:StatusAffectType = mk("Unlocked Echidna Cock");
+		public static const UnlockedWolfCock:StatusAffectType = mk("Unlocked Wolf Cock");
+		
+		/* TRUEASDFMAN
+			TODO: Might do Hip/Buttrating, Vaginal/Anal Wetness/Looseness, Breastsize Metamorph
+		*/
+//{Region Orm's metamorph Affects
+/*		//metamorph
 		public static const UnlockedFur:StatusAffectType = mk("Unlocked Fur");//użyć fox fur lub inne skin tf scene text
 		public static const UnlockedScales:StatusAffectType = mk("Unlocked Scales");
 	//	public static const Unlocked:StatusAffectType = mk("Unlocked ");//pozostałe typy skóry tutaj a także partial skin types
@@ -326,7 +644,8 @@ package classes
 	//	public static const Unlocked:StatusAffectType = mk("Unlocked ");
 	//	public static const Unlocked:StatusAffectType = mk("Unlocked ");
 	//	public static const Unlocked:StatusAffectType = mk("Unlocked ");
-
+*/
+//}endregion
 		// combat
 		public static const AcidSlap:CombatStatusAffect = mk2("Acid Slap");
 		public static const AkbalSpeed:CombatStatusAffect = mk2("Akbal Speed");
